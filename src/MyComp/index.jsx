@@ -1,4 +1,5 @@
 import React from 'react';
+import InfoHolder from './InfoHolder'
 
 export default class MyComp extends React.Component {
     constructor(props) {
