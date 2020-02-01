@@ -33,7 +33,6 @@ export default class MyComp extends React.Component {
                     data: res
                 })
             })
-            event source 
         */
         const { evtSource } = this.state;
         console.log("clicked")
@@ -47,16 +46,6 @@ export default class MyComp extends React.Component {
             vdata = vdata.concat(value)
             this.handleUpdate(vdata)
         }.bind(this))
-        evtSource.onmessage = function(e) {
-            //var newElement = document.createElement("li");
-          
-            //newElement.textContent = "message: " + e.data;
-            console.log(e.data)
-            this.setState({
-                data: e.data,
-                isLoading: false,
-            })
-          }
           
         // this.setState({
         //     data: [5,9,10],
