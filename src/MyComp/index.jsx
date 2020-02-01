@@ -92,7 +92,7 @@ export default class MyComp extends React.Component {
                     
                 }
                 <div style={{backgroundColor: 'red', width: '200px', height: '200px'}} onClick={this.apiRequest}>
-                    hi
+                
                 </div>
             </div>
         )
